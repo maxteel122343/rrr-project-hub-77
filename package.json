@@ -1,0 +1,27 @@
+{
+  "name": "f-funfans-platform-3-11-25-20-10",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build:dev": "vite build --mode development",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.81.1",
+    "autoprefixer": "^10.4.21",
+    "lovable-tagger": "^1.1.11",
+    "lucide-react": "^0.553.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwindcss": "^4.1.17"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.1.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
